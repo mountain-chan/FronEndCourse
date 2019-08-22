@@ -3,3 +3,173 @@
 	padding: 0;
 }
 
+.fa.fa-times-circle.off {
+    font-size: 27px;
+}
+
+.menu-phai li {
+    list-style: none;
+    color: white;
+}
+
+.menu-phai a {
+    color: white;
+    display: block;
+    border-bottom: 1px solid gray;
+    padding: 15px 14px;
+    font-size: 16px;
+}
+
+
+.menu-phai {
+    position: fixed;
+    top: 0px;
+    background: black;
+    color: white;
+    height: 900px;
+    width: 200px;
+    z-index: 3;
+    transition: all 0.4s;
+    right: -300px;
+}
+
+.menu-phai.show {
+    right: 0px;
+}
+
+.nut-menu a.fa.fa-bars {
+    color: white;
+    font-size: 20px;
+}
+
+.nut-menu {
+    top: 9px;
+    position: fixed;
+    right: 11px;
+    padding: 12px 15px;
+    background: #000000c4;
+}
+
+.top-6 h2 {
+    font-size: 26px;
+}
+
+.look-at-me {
+    background: #272424;
+    color: white;
+    margin-left: 10px;
+}
+
+.top-6.xanh {
+    background: #337ab7;
+    padding: 46px 0px;
+    color: white;
+}
+
+a.btn.btn-default.view-more-item {
+    background: #00000091;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.top-5 img.img-responsive {
+    margin-bottom: 20px;
+}
+
+.top-5 img.img-responsive:hover {
+    opacity: 0.8;
+}
+
+.top-4.anh-nen {
+    padding: 62px 0px;
+    background: url(4.jpg);
+    height: 205px;
+    background-size: cover;
+    color: white;
+}
+
+hr.vien-duoi {
+    width: 9%;
+    margin: auto;
+    margin-bottom: 22px;
+}
+
+.top-3 h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 2%;
+}
+
+.top-2 p {
+    font-size: 14px;
+}
+
+.top-2 h2 {
+    font-size: 30px;
+}
+
+.top-1 p {
+    font-size: 15px;
+    color: snow;
+    font-weight: 500;
+}
+
+.top-1 a.btn.btn-default {
+    background: #403a3a;
+    color: white;
+}
+
+.top-1 a.btn.btn-default:hover {
+    background: black;
+}
+
+.top-1 h1 {
+    font-size: 42px;
+    color: snow;
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+    padding: 35px;
+}
+
+
+.top-3 {
+    padding-bottom: 26px;
+}
+
+.top-3 {
+    background: #337ab7;
+    color: white;
+}
+
+._4cot h3 {
+    font-size: 18px;
+}
+
+.icon-to b.fa {
+    background: white;
+    color: #3a4dda;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 45px;
+}
+
+
+.top-2 {
+    padding: 20px 0px;
+}
+
+.top-1 {
+    width: 100%;
+    background: url(4.jpg);
+    background-size: cover;
+}
+
