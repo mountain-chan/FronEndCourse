@@ -1,8 +1,31 @@
 $(function(){
 
     $('.top-1 a.btn.btn-default').click(function(){
-        $('.top-1').animate({top:'100px'}, "slow");
-        console.log($('.top-3').offset().top)
+        $('html, body').animate({scrollTop:$('.top-3').offset().top}, "slow");
+        return false;
+    });
+
+    $('#home').click(function(){
+        $('html, body').animate({scrollTop:0}, "slow");
+        $('.menu-phai').removeClass('show');
+        return false;
+    });
+
+    $('#about').click(function(){
+        $('html, body').animate({scrollTop:$('.top-2').offset().top}, "slow");
+        $('.menu-phai').removeClass('show');
+        return false;
+    });
+
+    $('#service').click(function(){
+        $('html, body').animate({scrollTop:$('.top-3').offset().top}, "slow");
+        $('.menu-phai').removeClass('show');
+        return false;
+    });
+
+    $('#contact').click(function(){
+        $('html, body').animate({scrollTop:$('.footer').offset().top}, "slow");
+        $('.menu-phai').removeClass('show');
         return false;
     });
 

@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.top-2 h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.top-2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.top-2 .ngoi-sao-2 {
+    width: 23%;
+    margin: auto;
+    margin-top: 23px;
+    border-top: 3px solid;
+}
+
+.ngoi-sao-2 span {
+    width: 50px;
+    background: white;
+    position: relative;
+    font-size: 30px;
+    top: -20px;
+}
+
+.top-1 .ngoi-sao {
+    width: 34%;
+    margin: auto;
+    border-top: 3px solid white;
+    margin-top: 30px;
+}
+
+.top-1 .ngoi-sao span {
+    width: 50px;
+    background: #09d2ae;
+    position: relative;
+    top: -18px;
+    font-size: 30px;
+    color: white;
+}
+
+.top-1 p {
+    font-size: 16px;
+    color: white;
+}
+
+nav.navbar.navbar-inverse {
+    margin-bottom: 0;
+}
+
+.top-1 hr.hr.hr-trai {
+    font-size: 5px;
+    width: 10%;
+}
+
+.top-1 h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.top-1 img {
+    border-radius: 50%;
+}
+
+.top-1 {
+    background: #09d2ae;
+    padding-top: 90px;
+    padding-bottom: 113px;
+}
+
