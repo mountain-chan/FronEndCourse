@@ -3,6 +3,141 @@
 	padding: 0;
 }
 
+.footer li {
+    list-style: none;
+    display: inline;
+}
+
+.footer li a {
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    transition: all 0.5s;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer li a:hover {
+    background: white;
+    color: #182689;
+    text-decoration: none;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer h4 {
+    font-weight: 600;
+    color: white;
+}
+
+.footer-2 p {
+    color: white;
+}
+
+.footer-2 {
+    background: gray;
+    padding: 17px 0px;
+}
+
+.footer {
+    background: #181635;
+    padding: 40px 0px;
+}
+
+button.btn.btn-primary {
+    padding: 15px;
+    background: #09d2ae;
+    border: 1px solid #09d2ae;
+}
+
+textarea.form-control {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+input.form-control {
+    border: 0px solid;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 10px 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.contact-me {
+    padding: 50px 0px;
+}
+
+.title-contact-me h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.title-contact-me {
+    text-align: center;
+}
+
+.muc-about p {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+
+.muc-about a.btn.btn-default {
+    background: none;
+    margin: 20px auto;
+}
+
+.muc-about h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.muc-about {
+    background: #09d2ae;
+    padding: 50px 0;
+}
+
+.phongto i {
+    font-size: 66px;
+    color: white;
+    padding-top: 100px;
+}
+
+.phongto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #09d2ae;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.sanpham {
+    position: relative;
+    margin-bottom: 27px;
+}
+
+.sanpham:hover .phongto {
+    opacity: 1;
+}
+
 .top-2 h1 {
     font-weight: 600;
     font-size: 50px;
@@ -13,29 +148,24 @@
     padding-bottom: 30px;
 }
 
-.top-2 .ngoi-sao-2 {
-    width: 23%;
-    margin: auto;
-    margin-top: 23px;
-    border-top: 3px solid;
-}
-
-.ngoi-sao-2 span {
-    width: 50px;
+.top-2 .ngoi-sao span, .title-contact-me .ngoi-sao span {
     background: white;
-    position: relative;
-    font-size: 30px;
-    top: -20px;
+    color: black;
 }
 
-.top-1 .ngoi-sao {
-    width: 34%;
+.top-2 .ngoi-sao, .title-contact-me .ngoi-sao {
+    border-top: 3px solid black;
+    width: 25%;
+}
+
+.ngoi-sao {
+    width: 30%;
     margin: auto;
     border-top: 3px solid white;
     margin-top: 30px;
 }
 
-.top-1 .ngoi-sao span {
+.ngoi-sao span {
     width: 50px;
     background: #09d2ae;
     position: relative;
