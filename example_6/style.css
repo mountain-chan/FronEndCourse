@@ -1,6 +1,87 @@
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.row.tin {
+    padding: 25px 0;
+}
+
+img.img-responsive {
+    border: 3px solid #ece4e4;
+    border-radius: 50%;
+}
+
+::selection {
+    color: white;
+    background: #d0dc5e;
+}
+
+.duongke {
+    left: 50%;
+    width: 2px;
+    height: 650px;
+    position: absolute;
+    background: #c5adad;
+    top: 2050px;
+}
+
+.row.tin.phai {
+}
+
+.row.tin.trai {
+}
+
+.news h3 {
+    font-weight: 600;
+}
+
+.news {
+    padding: 50px 0;
+    background: #a0d2d2;
+}
+
+.news p i {
+    color: gray;
+    font-size: 16px;
+}
+
+.news h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.top-3 {
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateY(300px);
+}
+
+.top-3.bien-ra {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+ul.nav.navbar-nav.navbar-right a {
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.tien-hoa ul.nav.navbar-nav.navbar-right a {
+    font-size: 10px;
+}
+
+a.navbar-brand.title-nav.my-navbar {
+    font-size: 26px;
+    transition: all 0.4s;
+}
+
+.tien-hoa ul.navbar-right {
+    font-size: 12px;
+}
+
+.tien-hoa a.navbar-brand.title-nav.my-navbar {
+    font-size: 18px;
 }
 
 .footer li {
@@ -181,6 +262,15 @@ input.form-control {
 
 nav.navbar.navbar-inverse {
     margin-bottom: 0;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    transition: all 0.5s;
+    padding: 12px 0px;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top.tien-hoa {
+    padding: 0px;
 }
 
 .top-1 hr.hr.hr-trai {
